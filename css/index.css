@@ -1,1 +1,101 @@
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding:16px;
+}
+ul {
+    list-style-type: none;
+    padding: o;
+    margin: 0;
+}
+#nav {
+    float: right;
+    padding: 20px;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: 500;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight:200;
+}
+.projects {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "caseStudy1 caseStudy2"
+    "caseStudy3 quilts";
+    
+}
+#caseStudy1 {
+    grid-area: caseStudy1;
+    width:auto;
+    height:auto;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    margin-left: 24px;
+    
+}
+#caseStudy1 img{
+    width:100%;
+    height:100%;
+}
+#caseStudy2 {
+    grid-area: caseStudy2;
+    width:auto;
+    height:auto;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-right: 24px;
+    margin-left: 12px;
+}
+#caseStudy2 img{
+    width:100%;
+    height:100%;
+}
+#caseStudy3 {
+    grid-area: caseStudy3;
+    width:auto;
+    height:auto;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    margin-right: 12px;
+    margin-left: 24px;
+}
+#caseStudy3 img {
+    width:100%;
+    height:100%;
+}
+#quilts {
+    grid-area: quilts;
+    width:auto;
+    height:auto;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    margin-left: 12px;
+}
+#quilts img {
+    width:100%;
+    height:100%;
+}
+p {
+    display:flex;
+    justify-content:center;
+}
+.linkedIn {
+    display:flex;
+    justify-content:center;
+}
